@@ -18,7 +18,11 @@
     "lint": "tslint -p tsconfig.json -c tslint.json src/**/*.ts",
     "lint-fix": "tslint -p tsconfig.json -c tslint.json src/**/*.ts --fix",
     "test": "mocha -r ts-node/register tests/**/*.spec.ts",
-    "test-split": "node ./bin/ngx-i18n-split.js -i test-split/src/i18n/*.json -o test-split/assets/i18n/*.json -k a b --defaultFolder common"
+    "test-split": "node ./bin/ngx-i18n-split.js -i test-split/src/i18n/*.json -o test-split/assets/i18n/*.json -k a b -d common"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:grimwoodent/ngx-i18n-split.git"
   },
   "keywords": [
     "angular",

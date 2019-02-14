@@ -23,7 +23,7 @@ export const cli = yargs
     .alias('help', 'h')
     .option('input', {
         alias: 'i',
-        describe: 'Paths you would like to compile files from. You can use path expansion, glob patterns and multiple paths',
+        describe: 'Paths you would like to split files from. You can use path expansion, glob patterns and multiple paths',
         default: process.env.PWD,
         type: 'array',
         normalize: true
