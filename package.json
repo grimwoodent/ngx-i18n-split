@@ -1,6 +1,6 @@
 {
   "name": "ngx-i18n-split",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Split i18n combined json files for lazy loading components",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
